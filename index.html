@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Splatting Remix</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #222;
+      color: #eee;
+      margin: 2rem;
+    }
+    h1 {
+      color: #3cc;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 400px;
+    }
+    li {
+      padding: 8px 12px;
+      margin-bottom: 6px;
+      background: #444;
+      cursor: pointer;
+      border-radius: 6px;
+      user-select: none;
+      transition: background 0.2s;
+    }
+    li:hover {
+      background: #0cf;
+    }
+  </style>
+</head>
+<body>
+  <h1>Splatting Remix</h1>
+  <p>Select your weapon:</p>
+  <ul id="weapon-list"></ul>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
