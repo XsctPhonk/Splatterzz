@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Splatting Remix - Bot Battle</title>
+  <style>
+    body {
+      margin: 0;
+      background: #222;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+    canvas {
+      background: #444;
+      border: 3px solid #0cf;
+      border-radius: 8px;
+      margin-top: 1rem;
+      image-rendering: pixelated;
+    }
+    h1 {
+      color: #3cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Splatting Remix - Bot Battle</h1>
+  <p>Use arrow keys or WASD to move. Turf is painted as you move.</p>
+  <canvas id="gameCanvas" width="640" height="480"></canvas>
+
+  <script type="module" src="./bot-battle.js"></script>
+</body>
+</html>
